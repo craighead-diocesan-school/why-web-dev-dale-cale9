@@ -1,10 +1,19 @@
-
 <!doctype html>
-<html lang="en" ></html>
+<html lang="en">
+
 <head>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+
   <meta charset="UTF-8">
   <title> Why Web Dev </title>
-  <link rel="icon" href="favicon_lol.ico">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 
@@ -38,7 +47,7 @@
     </ul>
 
 
-    <img src="HTML5_logo_and_wordmark copy.svg" alt="">
+    <img src="Html.logo.svg" alt="">
   </main>
 
   <footer>
@@ -55,7 +64,7 @@
     }
 
     h1 {
-      font-family: sans-serif;
+      font-family: merriweather;
       font-size: 3em;
       text-shadow: 3px 3px #95c1df;
       color: #16688b;
@@ -64,13 +73,12 @@
 
     }
 
-    * {
-      font-family: sans-serif;
-    }
+    
 
     p {
-      font-family: fantasy;
-      font-size: x-large;
+      font-family: "Libre Baskerville", serif;
+      font-weight: bolder;
+      font-size: larger;
     }
 
 
@@ -100,34 +108,38 @@
       width: 30rem;
     }
 
-    
 
-  
-  body {
+
+
+    body {
     display: grid;
     grid: " .    h    .  " 6em
           " .    n    n  " 1em
-          " .    m     . " 40em
+          " .    m    . " 40em
           " .    f    f  " 1em
           / 1fr  5fr  1fr;
   }
 
-  header { grid-area: h; }
-  nav    { grid-area: n; }
-  main   { grid-area: m; }
-  footer { grid-area: f; }
-  
-  
-</style>
+    header {
+      grid-area: h;
+    }
 
-<!doctype html>
-<head>
-  <meta charset="UTF-8">
-  <title> Why Web Dev </title>
-  <link rel="icon" href="favicon.ico">
-</head>
+    nav {
+      grid-area: n;
+    }
+
+    main {
+      grid-area: m;
+    }
+
+    footer {
+      grid-area: f;
+    }
+  </style>
 
 
 
 
 </body>
+
+</html>
