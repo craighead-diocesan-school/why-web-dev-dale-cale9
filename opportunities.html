@@ -3,7 +3,7 @@
 
 <head>
 
-  
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,9 +24,16 @@
   </header>
 
   <nav>
-    <a href="index.html"> Home </a>
-    <a href="opportunities.html"> Web Dev Opportunities </a>
-    <a href="other-careers.html"> Other Coding Careers </a>
+    <a href="index.html">
+      <img src="home.gif">
+      Home 
+    </a>
+    <a href="opportunities.html"> 
+      <img src="idk.gif" alt="">
+      Web Dev Opportunities </a>
+    <a href="other-careers.html"> 
+      <img src="hi.gif" alt="">
+      Other Coding Careers </a>
   </nav>
 
   <main>
@@ -48,14 +55,13 @@
       <li> You can work remotely from anywhere in the world. </li>
     </ul>
 
-
-    <img src="want.a.job.image.png" alt />
-  </main>
-
+<div>
+    <img class="cool-hacking-image" src="hacking.image.png" alt />
+  </div>
 
   <footer>
     <p>
-      &copy; Isha Uniyal 2023
+      &copy; Isha Uniyal 2024
     </p>
   </footer>
 
@@ -71,11 +77,11 @@
       color: #16688b;
       text-align: center;
       text-decoration: underline;
-      background-color:rgb(146, 167, 184);
+      background-color: rgb(146, 167, 184);
       border-radius: 0.3em;
-    
-    
-      
+
+
+
     }
 
 
@@ -84,7 +90,8 @@
       font-family: "Libre Baskerville", serif;
       font-weight: bolder;
       font-size: larger;
-      color: #232b31;
+      color: #000000;
+
 
     }
 
@@ -112,8 +119,16 @@
       font-family: "Madimi One", sans-serif;
     }
 
+    
+.cool-hacking-image {
+  width: 30rem;
+}
+
+
+
+
     img {
-      width: 30rem;
+      width: 15px;
     }
 
 
@@ -125,15 +140,10 @@
       border-radius: 0.3cm;
     }
 
-
     body {
-    display: grid;
-    grid: " .    h    .  " 6em
-          " .    n    n  " 1em
-          " .    m    . " 40em
-          " .    f    f  " 1em
-          / 1fr  5fr  1fr;
-  }
+      display: grid;
+      grid: " .    h    .  " 6em " .    n    n  " 1em " .    m    . " 40em " .    f    f  " 1em / 1fr 5fr 1fr;
+    }
 
     header {
       grid-area: h;

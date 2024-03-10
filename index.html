@@ -4,11 +4,26 @@
 <head>
 
 
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&display=swap"
     rel="stylesheet">
+
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&display=swap"
+    rel="stylesheet">
+
+
+
+
+
 
 
   <meta charset="UTF-8">
@@ -26,9 +41,16 @@
   </header>
 
   <nav>
-    <a href="index.html"> Home </a>
-    <a href="opportunities.html"> Web Dev Opportunities </a>
-    <a href="other-careers.html"> Other Coding Careers </a>
+    <a href="index.html">
+      <img src="home.gif">
+      Home 
+    </a>
+    <a href="opportunities.html"> 
+      <img src="idk.gif" alt="">
+      Web Dev Opportunities </a>
+    <a href="other-careers.html"> 
+      <img src="hi.gif" alt="">
+      Other Coding Careers </a>
   </nav>
 
   <main>
@@ -47,22 +69,21 @@
     </ul>
 
 
-    <img src="Html.logo.svg" alt="">
+    <div>
+      <img class="ishas-big-image" src="Html.logo.svg" alt />
+    </div>
+
   </main>
 
   <footer>
     <p>
-      &copy; Isha Uniyal 2023
+      &copy; Isha Uniyal 2024
     </p>
   </footer>
 
 
 
   <style>
-    * {
-      font-family: sans-serif;
-    }
-
     h1 {
       font-family: merriweather;
       font-size: 3em;
@@ -70,55 +91,60 @@
       color: #16688b;
       text-align: center;
       text-decoration: underline;
-
+      background-color: rgb(146, 167, 184);
+      border-radius: 0.3em;
     }
 
-    
+
 
     p {
       font-family: "Libre Baskerville", serif;
       font-weight: bolder;
-      font-size: larger;
+      font-size: x-large;
+      color: #232b31;
     }
 
 
 
     a {
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-      background-color: #b0ccf1;
-      border: 1px solid #030202;
+
+      color: rgb(205, 217, 228);
+      background-color: #6586af;
+      border: 2px solid #376580;
       border-radius: 0.5em;
       padding-left: 0.5em;
       padding-right: 0.5em;
+      text-decoration: none;
+      font-family: "Madimi One", sans-serif;
     }
 
 
     body {
-      background-color: #c6e6f3;
+      background-color: #a4bac3;
     }
 
 
     a:hover {
-      color: white;
+      color: rgb(0, 0, 0);
       background: rgb(142, 182, 215);
+      font-family: "Madimi One", sans-serif;
     }
 
-    img {
+
+    .ishas-big-image {
       width: 30rem;
     }
 
 
+    img {
+      width: 15px;
+    }
 
 
     body {
-    display: grid;
-    grid: " .    h    .  " 6em
-          " .    n    n  " 1em
-          " .    m    . " 40em
-          " .    f    f  " 1em
-          / 1fr  5fr  1fr;
-  }
+      display: grid;
+      grid: " .    h    .  " 6em " .    n    n  " 1em " .    m    . " 40em " .    f    f  " 1em / 1fr 5fr 1fr;
+    }
 
     header {
       grid-area: h;
@@ -134,6 +160,16 @@
 
     footer {
       grid-area: f;
+    }
+
+
+
+
+    ul {
+      font-family: "Kanit", sans-serif;
+      font-size: 90%;
+      background: #8ba1b2;
+      border-radius: 0.3cm;
     }
   </style>
 
